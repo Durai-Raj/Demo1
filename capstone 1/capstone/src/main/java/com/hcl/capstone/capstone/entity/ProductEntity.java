@@ -17,5 +17,7 @@ public class ProductEntity{
     double discountedPrice=0;
     String strDate="";
     String testId;
+    String test1Id;
+    String test2Id;
 
 }
