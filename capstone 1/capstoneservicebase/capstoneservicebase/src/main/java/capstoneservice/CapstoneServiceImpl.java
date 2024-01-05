@@ -20,7 +20,8 @@ public class CapstoneServiceImpl implements CapstoneServiceInterface {
             case "Laptop": {
                 switch (strDate) {
                     case "Tuesday","Thursday","Saturday","Sunday": {
-                        discount = (price * (6.5 / 100));
+							discount = (price * (8.5 / 100));
+
                         break;
                     }
                 }
