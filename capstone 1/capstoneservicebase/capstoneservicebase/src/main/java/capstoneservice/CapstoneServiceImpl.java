@@ -32,6 +32,7 @@ public class CapstoneServiceImpl implements CapstoneServiceInterface {
                 switch (strDate) {
                     case "Monday","Wednesday","Friday": {
                         discount = (price * (0.05));
+						 discount = (price * (0.05));
                         break;
                     }
                 }
