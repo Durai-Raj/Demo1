@@ -22,6 +22,7 @@ public class CapstoneServiceImpl implements CapstoneServiceInterface {
                     case "Tuesday","Thursday","Saturday","Sunday": {
 
 							discount = (price * (5.5 / 100));
+			    discount = (price * (10 / 100));
 
                         break;
                     }
